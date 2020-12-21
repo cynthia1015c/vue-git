@@ -69,12 +69,12 @@
     </el-menu>
     
     <div class="block">
-      <el-carousel trigger="click" height="464px" width="100">
+      <el-carousel trigger="click" height="464px">
         <el-carousel-item class="p">
           <img src="./assets/1.png">
         </el-carousel-item>
         <el-carousel-item class="p">
-          <img src="./assets/2.jpg">
+          <img src="./assets/22.jpg">
         </el-carousel-item>
         <el-carousel-item class="p">
           <img src="./assets/3.jpg">
@@ -194,6 +194,6 @@ h2{
   }
   
   .p{
-    width: 100%;
+    width: 100vw;
   }
 </style>
