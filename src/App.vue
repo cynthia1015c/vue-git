@@ -8,7 +8,7 @@
       
     </div>
     
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" text-color="#7C60A3" active-text-color="#5E548E">
+    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" text-color="#7C60A3" active-text-color="#C26197">
       <el-submenu index="1">
         <template slot="title">關於學院</template>
         <el-menu-item index="1-1">學校簡介</el-menu-item>
@@ -90,6 +90,52 @@
         </el-carousel-item>
       </el-carousel>
     </div>
+    <div>
+      <h3>學院相關網站</h3>
+    </div>
+    <div class="line1"></div>
+    <div class="whole">
+      <div class="a1">
+        <h4>藝術與設計學系</h4>
+      </div>
+      <div class="a2">
+        <img src="./assets/7.jpg">
+      </div>
+      <div class="a3">
+        <h5>音樂系</h5>
+      </div>
+      <div class="a4">
+        <img src="./assets/8.jpg">
+      </div>
+      <div class="a5">
+        <h6>藝術學院學士班</h6>
+      </div>
+      <div class="a6">
+        <img src="./assets/9.jpg">
+      </div>
+    </div>
+    <div class="whole2">
+      <div class="a7">
+        <img src="./assets/10.jpg">
+      </div>
+      <div class="a8">
+        <h7>藝術與創新科技碩士學程</h7>
+      </div>
+      <div class="a9">
+        <img src="./assets/11.jpg">
+      </div>
+      <div class="a10">
+        <h8>春之藝術專題講座</h8>
+      </div>
+      <div class="a11">
+        <img src="./assets/12.jpg">
+      </div>
+      <div class="a12">
+        <h9>科技藝術研究中心</h9>
+      </div>
+    </div>
+      
+    
   </div>
 </template>
 
@@ -115,7 +161,7 @@ export default {
 <style>
 #app {
   font-family: Hiragino Sans GB; 
-  
+  font: bolder;
   
 }
 h1{
@@ -195,5 +241,124 @@ h2{
   
   .p{
     width: 100vw;
+  }
+  
+  h3{
+    color: #341553;
+    font-size: 36px;
+    padding-top: 30px;
+    margin: 0px;
+    padding-left: 46px;
+  }
+  .line1{
+    width: 74px;
+    height: 10px;
+    background-color: #5E548E;
+    
+    margin-left: 46px;
+  }
+  .whole{
+    padding-top: 30px;
+    padding-left: 46px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+  }
+  .whole2{
+    padding-top: 0px;
+    padding-left: 46px;
+    margin-top: 0px;
+    border-top: 0px;
+  }
+  .a1{
+    
+    width: 224px;
+    height: 224px;
+    background-color: #E0B1CB;
+    text-align:center;
+    line-height: 170px;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+  }
+  .a2{
+    display: inline-block;
+    float: left;
+  }
+  .a3{
+    
+    width: 224px;
+    height: 224px;
+    background-color: #9F86C0;
+    text-align:center;
+    line-height: 160px;
+    font-size: 24px;
+    display: inline-block;
+    float: left;
+  }
+  .a4{
+    display: inline-block;
+    float: left;
+  }
+  .a5{
+    
+    width: 224px;
+    height: 224px;
+    background-color: #ffffff;
+    text-align:center;
+    line-height: 160px;
+    font-size: 27px;
+    display: inline-block;
+    float: left;
+  }
+  .a6{
+    display: inline-block;
+    float: left;
+  }
+  .a7{
+    display: inline-block;
+    float: left;
+  }
+  .a8{
+    
+    width: 224px;
+    height: 224px;
+    background-color: #ffffff;
+    text-align:center;
+    line-height: 240px;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+    color: black;
+  }
+  .a9{
+    display: inline-block;
+    float: left;
+  }
+  .a10{
+    width: 224px;
+    height: 224px;
+    background-color:#5E548E;
+    text-align:center;
+    line-height: 240px;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    color: #ffffff;
+  }
+  .a11{
+    display: inline-block;
+    float: left;
+  }
+  .a12{
+    width: 224px;
+    height: 224px;
+    background-color: #E0B1CB;
+    text-align:center;
+    line-height: 240px;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    
   }
 </style>
