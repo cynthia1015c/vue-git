@@ -228,7 +228,7 @@ h2{
 
   color: #5E548E;
 }
-.bt{
+/* .bt{
   left: 46px;
   top: 20px;
   padding-left: 400px;
@@ -326,7 +326,7 @@ h2{
   font-size: 20px;
   color: #7C60A3;
   padding-left: 30px;
-}
+} */
   .el-menu-demo{
     width: 1015px;
     left: 375px;
@@ -526,6 +526,10 @@ h2{
     padding-top: 10px;
     font-size: 28px;
     color: black;
+  }
+  .w2:hover{
+    color: #C26197;
+    text-decoration: underline;
   }
   .rm1{
     width: 107px;
