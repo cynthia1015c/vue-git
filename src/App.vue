@@ -203,7 +203,7 @@ export default {
 #app {
   font-family: 微軟正黑體; 
   font: bolder;
-  
+  margin: 0px auto;
 }
 h1{
   position: absolute;
